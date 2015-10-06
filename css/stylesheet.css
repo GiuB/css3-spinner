@@ -1,0 +1,26 @@
+html { height: 100%; width: 100%; }
+body { background-color: #1ABC9C; color: white; }
+.hidden { display: none; }
+.spinner-container {
+	position: fixed;
+	width: 100%;
+	top: 50%;
+	margin-top: -70px;
+	pointer-events: none;
+}
+.sk-rotating-plane,
+.sk-spinner-pulse,
+.sk-cube,
+.sk-wandering-cubes .sk-cube,
+.sk-circle,
+.sk-rect,
+.sk-wave .sk-rect,
+.spinner-container .sk-child,
+.sk-cube-grid .sk-cube,
+.sk-circle-default .sk-child:before,
+.sk-fading-circle .sk-circle:before {
+	background-color: #FFF;
+}
+.sk-circle-default.sk-circle,
+.sk-circle-default .sk-child,
+.sk-fading-circle .sk-circle { background-color: transparent; }
